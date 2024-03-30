@@ -1,0 +1,196 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    transition: all 0.33s ease-in-out;
+    -webkit-transition: all 0.33s ease-in-out;
+    -moz-transition: all 0.33s ease-in-out;
+    -ms-transition: all 0.33s ease-in-out;
+    -o-transition: all 0.33s ease-in-out;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #77777734;
+    height: 67px;
+}
+
+.back {
+    background: #3f3f3fa6;
+}
+
+#op {
+    cursor: pointer;
+}
+
+.s-nav-c {
+    position: absolute;
+    width: 0;
+    z-index: 1;
+    height: 100%;
+    overflow-x: hidden;
+    text-wrap: nowrap;
+    transition: all 0.44s ease-in-out;
+    -webkit-transition: all 0.44s ease-in-out;
+    -moz-transition: all 0.44s ease-in-out;
+    -ms-transition: all 0.44s ease-in-out;
+    -o-transition: all 0.44s ease-in-out;
+    padding-top: 60px;
+    color: whitesmoke;
+}
+
+.s-nav-c span {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 33px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.s-nav-c span:hover {
+    color: #1294ff99;
+    scale: 1.3;
+    font-weight: bold;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.s-nav-c nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.s-nav-c nav a {
+    display: block;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #81a3ff;
+    transition: all 0.33s ease-in-out;
+    -webkit-transition: all 0.33s ease-in-out;
+    -moz-transition: all 0.33s ease-in-out;
+    -ms-transition: all 0.33s ease-in-out;
+    -o-transition: all 0.33s ease-in-out;
+}
+
+.s-nav-c nav a:hover {
+    background-color: #81a3ff;
+    color: rgba(65, 248, 172, 0.89);
+}
+
+nav a.here {
+    color: rgba(255, 105, 105, 0.89);
+    background-color: #8888885e;
+    outline: none;
+}
+
+nav a.here:hover {
+    background-color: rgba(255, 105, 105, 0.89);
+    color: rgb(123, 255, 145);
+}
+
+.s-nav-o {
+    width: 250px;
+    background-color: rgba(29, 25, 22, 0.973);
+}
+
+
+.bi {
+    font-size: 40px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 11px;
+}
+
+.profile img,
+.profile span {
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    width: 50px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.profile span {
+    width: 20px;
+}
+
+.profile span:hover,
+.profile img {
+    cursor: pointer;
+    color: white;
+}
+
+.l-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.l-wrapper div h2 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hw h2 {
+    color: rgb(45, 141, 141);
+}
+.todo h2 {
+    color: #691974;
+}
+
+.hw,
+.todo {
+    text-align: center;
+}
+
+.todo-container,
+.hw-container {
+    display: flex;
+    min-width: 700px;
+    min-height: 400px;
+    border: solid #898098 1px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.todo-container {
+    background-color: #a7d8ff62;
+}
+
+.hw-container {
+    background-color: #595a9931;
+}
